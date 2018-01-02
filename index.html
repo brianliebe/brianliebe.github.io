@@ -1,420 +1,505 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-    <!-- BEGIN HEAD -->
-    <head>
-        <meta charset="utf-8"/>
-        <title>Homepage - Brian Liebe</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta content="" name="description"/>
-        <meta content="" name="author"/>
+<html lang="en">
 
-        <!-- GLOBAL MANDATORY STYLES -->
-        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
-        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-        <!-- PAGE LEVEL PLUGIN STYLES -->
-        <link href="css/animate.css" rel="stylesheet">
-        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+	<title>Brian Liebe</title>
+	<link rel="shortcut icon" href="favicon.ico"/>
 
-        <!-- THEME STYLES -->
-        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico"/>
-    </head>
-    <!-- END HEAD -->
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
 
-    <!-- BODY -->
-    <body id="body" data-spy="scroll" data-target=".header">
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
 
-        <!--========== HEADER ==========-->
-        <header class="header navbar-fixed-top">
-            <!-- Navbar -->
-            <nav class="navbar" role="navigation">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="menu-container js_nav-item">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="toggle-icon"></span>
-                        </button>
+	<!-- Magnific Popup -->
+	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
 
-                        <!-- Logo -->
-                        <div class="logo">
-                            <a class="logo-wrap" href="#body">
-                                <img class="logo-img logo-img-main" src="images/logo-light.png" alt="Asentus Logo">
-                                <img class="logo-img logo-img-active" src="images/logo-dark.png" alt="Asentus Logo">
-                            </a>
-                        </div>
-                        <!-- End Logo -->
-                    </div>
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse nav-collapse">
-                        <div class="menu-container">
-                            <ul class="nav navbar-nav navbar-nav-right">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body"><font color="grey">Home</font></a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about"><font color="grey">About</font></a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#classes"><font color="grey">Classes</font></a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work"><font color="grey">Work</font></a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact"><font color="grey">Contact</font></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Navbar Collapse -->
-                </div>
-            </nav>
-            <!-- Navbar -->
-        </header>
-        <!--========== END HEADER ==========-->
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
 
-        <!--========== SLIDER ==========-->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <div class="container">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-				<!--
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				-->
-                </ol>
-            </div>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img class="img-responsive" src="images/background-montreal.jpg" alt="Slider Image">
-                    <div class="container">
-                        <div class="carousel-centered">
-                            <div class="margin-b-40">
-                                <h1 class="color-black"><font color="#ff8d03">Hi</font></h1>
-                                <p class="color-white" ><font color="#333333" size="5" >I'm a student majoring in computer science at Binghamton University. <br/> This website is a collection of all the stuff I'm doing.</font></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--========== SLIDER ==========-->
+<body>
+	<!-- Header -->
+	<header id="home">
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/background1.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
 
-        <!--========== PAGE LAYOUT ==========-->
-        <!-- About -->
-        <div id="about">
-            <div class="content-lg container">
-                <!-- Masonry Grid -->
-                <div class="masonry-grid row">
-                    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30">
-                        <div class="margin-b-60">
-                        </div>
-                        <div class="margin-b-60">
-                            <h2>Education</h2>
-                            <p>I'm currently a junior in computer science at Binghamton University. I also enrolled at Brockport College with dual-enrollment during high school.</p>
-                        </div>
-                    </div>
-                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
-                        <div class="margin-b-60">
-                        </div>
-                        <h2>Work Experience</h2>
-                        <p>I had a internship at Universal Instruments Corporation as a software engineering co-op during the summer of 2017. I also worked as a teaching assistant for Physics I and CS301 (Ethical, Social, and Global Issues in Computer Science) at Binghamton..</p>
-                    </div>
-                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
-                        <div class="margin-t-60 margin-b-60">
-                            <h2>Knowledge</h2>
-                            <p>Lanaguages: Java, C, C++, C#, Perl, Python, X86 Assembly.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Masonry Grid -->
-            </div>
-        </div>
-        <!-- End About -->
-        <hr/>
-        <!-- Latest Products -->
-        <div id="classes">
-            <div class="content-lg container">
-                <div class="row margin-b-40">
-                    <div class="col-sm-6">
-                        <h2>Classes</h2>
-                        <p>These are the GitHub repositories of some of the classes I've taken at Binghamton.</p>
-                    </div>
-                </div>
-                <!--// end row -->
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
+			<div class="container">
 
-                <div class="row">
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <img class="img-responsive" src="images/classes/left.jpg" alt="Latest Products Image">
-                        </div>
-                        <h4>CS 220</h4>
-                        <p>Computer Systems II, Architecture and Programming</p>
-                        <a class="link" href="https://github.com/brianliebe/CS220">GitHub</a>
-                    </div>
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <img class="img-responsive" src="images/classes/middle.jpg" alt="Latest Products Image">
-                        </div>
-                        <h4>CS 240</h4>
-                        <p>Data Structures and Algorithms</p>
-                        <a class="link" href="https://github.com/brianliebe/CS240">GitHub</a>
-                    </div>
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <img class="img-responsive" src="images/classes/right.jpg" alt="Latest Products Image">
-                        </div>
-                        <h4>CS 301</h4>
-                        <p>Ethical, Social, and Global Issues in Computer Science</p>
-                        <a class="link" href="https://github.com/brianliebe/CS301">GitHub</a>
-                    </div>
-                </div>
-                <div><br/><br/><br/></div>
-                <!-- Second row of classes -->
-                <div class="row">
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <img class="img-responsive" src="images/classes/left.jpg" alt="Latest Products Image">
-                        </div>
-                        <h4>CS 320</h4>
-                        <p>Computer Systems III</p>
-                        <a class="link" href="https://github.com/brianliebe/CS320">GitHub</a>
-                    </div>
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <img class="img-responsive" src="images/classes/middle.jpg" alt="Latest Products Image">
-                        </div>
-                        <h4>CS 375</h4>
-                        <p>Design and Analysis of Algorithms</p>
-                        <a class="link" href="https://github.com/brianliebe/CS375">GitHub</a>
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
-        </div>
-        <!-- End Latest Products -->
-        <hr/>
-        <!-- Work -->
-        <div id="work">
-            <div class="section-seperator">
-                <div class="content-md container">
-                    <div class="row margin-b-40">
-                        <div class="col-sm-6">
-                            <h2>Projects</h2>
-                            <p>Here are a few of the projects that I'm working on or have worked on in the past.</p>
-                        </div>
-                    </div>
-                    <!--// end row -->
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img class="logo" src="img/logo.png" alt="logo">
+							<img class="logo-alt" src="img/logo-alt.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
 
-                    <!-- Masonry Grid -->
-                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
-                            <!-- Work -->
-                            <div class="work work-popup-trigger">
-                                <div class="work-overlay">
-                                    <img class="full-width img-responsive" src="images/projects/left.jpg" alt="brianliebe.me Project">
-                                </div>
-                                <div class="work-popup-overlay">
-                                    <div class="work-popup-content">
-                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                        <div class="margin-b-30">
-                                            <h3 class="margin-b-5">brianliebe.me</h3>
-                                            <span>A simple website for displaying all my projects and repositories.</span>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p>Not much right now, but I hope to add more to it as my GitHub expands.</p>
-                                                    <p>More to come!</p>
-                                                    <ul class="list-inline work-popup-tag">
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="https://github.com/brianliebe/brianliebe.github.io">GitHub Repository</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p class="margin-b-5"><strong>Developer: </strong>Brian Liebe</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Work -->
-                        </div>
-						<!--
-                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
-                            <div class="work work-popup-trigger">
-                                <div class="work-overlay">
-                                    <img class="full-width img-responsive" src="images/projects/middle.jpg" alt="Portfolio Image">
-                                </div>
-                                <div class="work-popup-overlay">
-                                    <div class="work-popup-content">
-                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                        <div class="margin-b-30">
-                                            <h3 class="margin-b-5">Art Of Coding</h3>
-                                            <span>Clean &amp; Minimalistic Design</span>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                    <ul class="list-inline work-popup-tag">
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                    <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                    <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                    <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
-                            <div class="work work-popup-trigger">
-                                <div class="work-overlay">
-                                    <img class="full-width img-responsive" src="images/projects/right.jpg" alt="Portfolio Image">
-                                </div>
-                                <div class="work-popup-overlay">
-                                    <div class="work-popup-content">
-                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                        <div class="margin-b-30">
-                                            <h3 class="margin-b-5">Art Of Coding</h3>
-                                            <span>Clean &amp; Minimalistic Design</span>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                    <ul class="list-inline work-popup-tag">
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                    <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                    <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                    <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-						-->
-                    </div>
-                    <!-- End Masonry Grid -->
-                </div>
-            </div>
-        </div>
-        <!-- End Work -->
-            
-        <!--========== END PAGE LAYOUT ==========-->
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
+				</div>
 
-        <!--========== FOOTER ==========-->
-        <footer class="footer">
-            <!-- Links -->
-			<div id="contact">
-				<div class="section-seperator">
-					<div class="content-md container">
-						<h2>Contact</h2>
-						<div class="row">
-							<div class="col-sm-2 sm-margin-b-30">
-								<!-- List -->
-								<!-- End List -->
-							</div>
-							<div class="col-sm-2 sm-margin-b-30">
-								<!-- List -->
-								<ul class="list-unstyled footer-list">
-									<li class="js_nav-item nav-item"><a class="link" href="mailto:bliebe1@binghamton.edu">Email</a></li>
-								</ul>
-								<!-- End List -->
-							</div>
-							<div class="col-sm-2 sm-margin-b-30">
-								<!-- List -->
-								<ul class="list-unstyled footer-list">
-									<li class="js_nav-item nav-item"><a class="link" href="https://www.twitter.com/brianliebe_">Twitter</a></li>
-								</ul>
-								<!-- End List -->
-							</div>
-							<div class="col-sm-2 sm-margin-b-30">
-								<!-- List -->
-								<ul class="list-unstyled footer-list">
-									<li class="js_nav-item nav-item"><a class="link" href="notfound.html">Resume</a></li>
-								</ul>
-								<!-- End List -->
-							</div>
-							<div class="col-sm-2 sm-margin-b-30">
-								<!-- List -->
-								<ul class="list-unstyled footer-list">
-									<li class="js_nav-item nav-item"><a class="link" href="notfound.html">585-766-4248</a></li>
-								</ul>
-								<!-- End List -->
-							</div>
+				<!--  Main navigation  -->
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Classes</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<!-- /Main navigation -->
+
+			</div>
+		</nav>
+		<!-- /Nav -->
+
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
+
+					<!-- home content -->
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<!-- <h1 class="white-text">Brian Liebe</h1> -->
+							<font size="30" color="white">Brian Liebe</font>
+							<p class="white-text">
+								I'm from Rochester, NY and currently studying computer science </br>at Binghamton University in Binghamton, NY
+							</p>
+							<!--
+							<button class="white-btn">Get Started!</button>
+							<button class="main-btn">Learn more</button>
+							-->
 						</div>
-						<!--// end row -->
+					</div>
+					<!-- /home content -->
+
+				</div>
+			</div>
+		</div>
+		<!-- /home wrapper -->
+
+	</header>
+	<!-- /Header -->
+
+	<!-- About -->
+	<div id="about" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">About</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<!-- <i class="fa fa-cogs"></i> -->
+						<h3>Education</h3>
+						<p>I'm currently pursuing a BS in Computer Science from Binghamton University with an expected graduation date of December 2018.</p>
 					</div>
 				</div>
-            </div>
-            <!-- End Links -->
+				<!-- /about -->
 
-            <!-- Copyright -->
-            <div class="content container">
-                <div class="row">
-                    <div class="col-xs-6">
-                        <img class="footer-logo" src="images/logo-dark.png" alt="brianliebe.me Logo">
-                    </div>
-                    <div class="col-xs-6 text-right">
-                        <p class="margin-b-0"><a class="fweight-700" href="http://brianliebe.me/">brianliebe.me</a> created and maintained by <a class="fweight-700" href="http://www.twitter.com/brianliebe_">Brian Liebe</a></p>
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
-            <!-- End Copyright -->
-        </footer>
-        <!--========== END FOOTER ==========-->
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<!-- <i class="fa fa-magic"></i> -->
+						<h3>Work Experience</h3>
+						<p>Worked at Universal Instruments Corporation during the summer of 2017 as a C# software engineering intern. I also was a teaching assistant for Physics I and a course assistant for CS301 - Global, Social, and Ethical issues in Computing.</p>
+					</div>
+				</div>
+				<!-- /about -->
 
-        <!-- Back To Top -->
-        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<!-- <i class="fa fa-mobile"></i> -->
+						<h3>Languages</h3>
+						<p>C, C++, C#, Java, Python, with some experience in Perl, X86, and Lua.</p>
+					</div>
+				</div>
+				<!-- /about -->
 
-        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-        <!-- CORE PLUGINS -->
-        <script src="vendor/jquery.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+			</div>
+			<!-- /Row -->
 
-        <!-- PAGE LEVEL PLUGINS -->
-        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
-        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
-        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
-        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
-        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
-        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
-        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script>
+		</div>
+		<!-- /Container -->
 
-        <!-- PAGE LEVEL SCRIPTS -->
-        <script src="js/layout.min.js" type="text/javascript"></script>
-        <script src="js/components/wow.min.js" type="text/javascript"></script>
-        <script src="js/components/swiper.min.js" type="text/javascript"></script>
-        <script src="js/components/masonry.min.js" type="text/javascript"></script>
-        <script src="js/components/google-map.min.js" type="text/javascript"></script>
+	</div>
+	<!-- /About -->
 
-    </body>
-    <!-- END BODY -->
+	
+	<!-- Numbers -->
+	<div id="numbers" class="section sm-padding">
+
+			<!-- Background Image -->
+			<div class="bg-img" style="background-image: url('./img/background2.jpg');">
+				<div class="overlay"></div>
+			</div>
+			<!-- /Background Image -->
+	
+			<!-- Container -->
+			<div class="container">
+	
+				<!-- Row -->
+				<div class="row">
+	
+	
+				</div>
+				<!-- /Row -->
+	
+			</div>
+			<!-- /Container -->
+	
+		</div>
+		<!-- /Numbers -->
+
+	<!-- Portfolio -->
+	<div id="portfolio" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Classes</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/cs220.png" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>CS220</span>
+						<h3>Computer Systems II</br>Fall 2016</h3>
+						<div class="work-link">
+							<a href="https://github.com/brianliebe/CS220"><i class="fa fa-external-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/cs240.png" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>CS240</span>
+						<h3>Data Structures and Algorithms</br>Spring 2017</h3>
+						<div class="work-link">
+							<a href="https://github.com/brianliebe/CS240"><i class="fa fa-external-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/cs320.png" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>CS320</span>
+						<h3>Computer Systems III</br>Fall 2017</h3>
+						<div class="work-link">
+							<a href="https://github.com/brianliebe/CS320"><i class="fa fa-external-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/cs350.png" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>CS350</span>
+						<h3>Operating Systems</br>Spring 2018</h3>
+						<div class="work-link">
+							<a href="https://github.com/brianliebe/CS350"><i class="fa fa-external-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/cs373.png" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>CS373</span>
+						<h3>Automata Theory and Formal Language</br>Spring 2018</h3>
+						<div class="work-link">
+							<a href="https://github.com/brianliebe/CS373"><i class="fa fa-external-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/cs375.png" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>CS375</span>
+						<h3>Design and Analysis of Algorithms</br>Fall 2017</h3>
+						<div class="work-link">
+							<a href="https://github.com/brianliebe/CS375"><i class="fa fa-external-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+				
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/cs435.png" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>CS435</span>
+						<h3>Introduction to Data Mining</br>Spring 2018</h3>
+						<div class="work-link">
+							<a href="https://github.com/brianliebe/CS435"><i class="fa fa-external-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/cs480.png" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>CS480F</span>
+						<h3>High Performance Computing</br>Spring 2018</h3>
+						<div class="work-link">
+							<a href="https://github.com/brianliebe/CS480"><i class="fa fa-external-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/tbd.png" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>TBD</span>
+						<h3>Fall 2018</h3>
+						<div class="work-link">
+							<a href="#"><i class="fa fa-external-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Portfolio -->
+
+	<!-- Numbers -->
+	<div id="numbers" class="section sm-padding">
+
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/background2.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Numbers -->
+
+	<!-- Contact -->
+	<div id="contact" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section-header -->
+				<div class="section-header text-center">
+					<h2 class="title">Contact Me</h2>
+				</div>
+				<!-- /Section-header -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-phone"></i>
+						<h3>Phone</h3>
+						<p>585-766-4248</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-envelope"></i>
+						<h3>Email</h3>
+						<p>bliebe1@binghamton.edu</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-map-marker"></i>
+						<h3>Address</h3>
+						<p>20 Hawley Street, Apt. 756C</br> Binghamton, NY 13901</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact form -->
+				<!--
+				<div class="col-md-8 col-md-offset-2">
+					<form class="contact-form">
+						<input type="text" class="input" placeholder="Name">
+						<input type="email" class="input" placeholder="Email">
+						<input type="text" class="input" placeholder="Subject">
+						<textarea class="input" placeholder="Message"></textarea>
+						<button class="main-btn">Send message</button>
+					</form>
+				</div>
+				-->
+				<!-- /contact form -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Contact -->
+
+
+	<!-- Footer -->
+	<footer id="footer" class="sm-padding bg-dark">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<!-- footer logo -->
+					<div class="footer-logo">
+						<a href="http://brianliebe.me"><img src="img/logo-alt.png" alt="logo"></a>
+					</div>
+					<!-- /footer logo -->
+
+					<!-- footer follow -->
+					<!--
+					<ul class="footer-follow">
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+					-->
+					<!-- /footer follow -->
+
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						<p>Copyright © 2018. All Rights Reserved. Template design by <a href="https://colorlib.com" target="_blank">Colorlib</a>. Maintained by <a href="https://twitter.com/brianliebe_">Brian Liebe</a></p>
+					</div>
+					<!-- /footer copyright -->
+
+				</div>
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Back to top -->
+	<div id="back-to-top"></div>
+	<!-- /Back to top -->
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
 </html>
