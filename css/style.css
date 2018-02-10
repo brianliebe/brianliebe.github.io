@@ -26,6 +26,9 @@ Author: Brian Liebe
     background-color: white;
     color: black;
 }
+.topnav a.visited {
+    color: white;
+}
 
 
 .wrapper {
