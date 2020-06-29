@@ -45,6 +45,20 @@ Author: Brian Liebe
   padding: 20px;
 }
 
+body {
+    font-family: Courier;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
 
 /* Home Page */
 
@@ -56,141 +70,22 @@ Author: Brian Liebe
     color: white;
     transform: translate(-50%, -50%);
     font-size: 50px;
-    max-width: 30%;
+    max-width: 40%;
 }
+
 .head-name .description {
     font-size: 17px;
 }
 
 /* About */
 
-.brian-container {
-    position: relative;
-    text-align: center;
-    color: white;
-    height: 290px;
-}
-.brian-box {
-    float: left;
-    width: 290px;
-    height: 60px;
-    background: #DDDDDD;
-}
-.brian-text {
-    position: absolute;
-    font-size: 40px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-15deg);
-    color: #800020;
-}
-body {
-    font-family: Courier;
-    color: white;
-}
-a {
-    text-decoration: none;
-    color: grey;
-}
-a:visited {
-    color: grey;
+.centered {
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
 }
 
-#pagewrap {
-	padding: 5px;
-	width: 960px;
-	margin: 0px auto;
-}
-header {
-	height: 100px;
+td {
+	vertical-align: top;
 	padding: 0 15px;
-}
-#content {
-	width: 290px;
-	float: left;
-	padding: 5px 15px;
-}
-
-#middle {
-	width: 294px;
-	float: left;
-	padding: 5px 15px;
-	margin: 0px 5px 5px 5px;
-}
-
-#sidebar {
-	width: 270px;
-	padding: 5px 15px;
-	float: left;
-}
-
-/* Differing Screen Sizes */
-
-/* for 980px or less */
-@media screen and (max-width: 980px) {
-	
-	#pagewrap {
-		width: 94%;
-	}
-	#content {
-		width: 41%;
-		padding: 1% 4%;
-	}
-	#middle {
-		width: 41%;
-		padding: 1% 4%;
-		margin: 0px 0px 5px 5px;
-		float: right;
-	}
-	
-	#sidebar {
-		clear: both;
-		padding: 1% 4%;
-		width: auto;
-		float: none;
-	}
-
-	header {
-		padding: 1% 4%;
-	}
-}
-
-/* for 700px or less */
-@media screen and (max-width: 600px) {
-
-	#content {
-		width: auto;
-		float: none;
-	}
-	
-	#middle {
-		width: auto;
-		float: none;
-		margin-left: 0px;
-	}
-	
-	#sidebar {
-		width: auto;
-		float: none;
-	}
-
-}
-
-/* for 480px or less */
-@media screen and (max-width: 480px) {
-
-	header {
-		height: auto;
-	}
-	h1 {
-		font-size: 2em;
-	}
-	#sidebar {
-		display: none;
-	}
-
-}
-
-#content, #middle, #sidebar {
-	margin-bottom: 5px;
 }
