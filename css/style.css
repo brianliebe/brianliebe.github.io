@@ -2,7 +2,7 @@
 Author: Brian Liebe
 */
 
-/* General */
+/* Nav Bar */
 
 .topnav {
     overflow: hidden;
@@ -30,7 +30,6 @@ Author: Brian Liebe
     color: white;
 }
 
-
 .wrapper {
   display: grid;
   grid-template-columns: 35% 35% 35%;
@@ -45,9 +44,15 @@ Author: Brian Liebe
   padding: 20px;
 }
 
+/* Body */
+
 body {
-    font-family: Courier;
+    font-family: "Consolas";
     color: white;
+}
+
+h2 {
+    text-decoration: underline;
 }
 
 a {
@@ -59,6 +64,16 @@ a:visited {
     color: white;
 }
 
+.centered {
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+}
+
+td {
+	vertical-align: top;
+	padding: 0 15px;
+}
 
 /* Home Page */
 
@@ -75,17 +90,4 @@ a:visited {
 
 .head-name .description {
     font-size: 17px;
-}
-
-/* About */
-
-.centered {
-	margin-left: 15%;
-	margin-right: 15%;
-	width: 70%;
-}
-
-td {
-	vertical-align: top;
-	padding: 0 15px;
 }
